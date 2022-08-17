@@ -37,35 +37,44 @@ int main() {
 
 
 	cout << "\nHere's our menu:\n";
-	cout << "**                 Spud's Burgers                     **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**         Hamburgers                                 **" << endl;
-	cout << "** All burgers are dressed with Mayo, ketchup and pickles. (Lettuce is 75 cents extra)                                              **" << endl;
-	cout << "**    Hamburger...........$5.76                   **" << endl;
-	cout << "**    Double Hamburger....$7.85                       **" << endl;
-	cout << "**    Cheese Burger.......$6.17                       **" << endl;
-	cout << "**    Chili Cheese Burger.$8.76                       **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**          Sides                                     **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**    Fries...........$1.79                           **" << endl;
-	cout << "**    Chili Fries.....$2.35                           **" << endl;
-	cout << "**    Nachos..........$2.97                           **" << endl;
-	cout << "**    Mac & Cheese....$3.54                           **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**           Drinks                                   **" << endl;
-	cout << "**                                                    **" << endl;
-	cout << "**    Soda.......$1.50                                **" << endl;
-	cout << "**    Tea........$1.25                                **" << endl;
-	cout << "**    Beer.......$4.50                                **" << endl;
-	cout << "**    Water......$0.99                                **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**                 Spud's Burgers                                **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**                   Hamburgers                                  **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**      All burgers are dressed with Mayo,ketchup,pickles.       **" << endl;
+	cout << "** 	         (Lettuce is 75 cents extra)                      **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**               Hamburger...........$5.76                       **" << endl;
+	cout << "**               Double Hamburger....$7.85                       **" << endl;
+	cout << "**               Cheese Burger.......$6.17                       **" << endl;
+	cout << "**               Chili Cheese Burger.$8.76                       **" << endl;
+	cout << "**                                                               **" << endl;
+	cout << "**																  **" << endl;
+	cout << "**																  **" << endl;
+	cout << "**                     Sides									  **" << endl;
+	cout << "**																  **" << endl;
+	cout << "**              Fries...........$1.79                            **" << endl;
+	cout << "**              Chili Fries.....$2.35                            **" << endl;
+	cout << "**				 Nachos..........$2.97                            **" << endl;
+	cout << "**				 Mac & Cheese....$3.54                            **" << endl;
+	cout << "**																  **" << endl;
+	cout << "**															   	  **" << endl;
+	cout << "**																  **" << endl;
+	cout << "**					   Drinks                                     **" << endl;
+	cout << "**																  **" << endl;
+	cout << "**				 Soda.......$1.50                                 **" << endl;
+	cout << "**				 Tea........$1.25                                 **" << endl;
+	cout << "**				 Beer.......$4.50                                 **" << endl;
+	cout << "**				 Water......$0.99                                 **" << endl;
 
+	
+	
+	
 	cout << "Welcome to Spud's Burgers.The home of the BEST Burgers. \n\nBefore taking your order, can we start by getting your age?: " << endl;
 	cin >> age;
 	if (age <= 12 || age >= 65)
@@ -76,6 +85,7 @@ int main() {
 	else
 	{
 		discount = 0;
+		cout << "\nSorry, You do not qualify for a 10% discount!" << endl;
 	}
 	cout << "\nAre you a Veteran?:\n1 for Yes\n2 for No\n";
 	cin >> vetChoice;
@@ -89,6 +99,9 @@ int main() {
 		discount = 0;
 	}
 
+	
+	
+	
 	cout << "Lets gets your hamburger selection: \n\nPlease Enter a number: \n1 for Hamburger\n2 for Double Hamburger\n3 for Cheese Burger\n4 for Chili Cheese Burger\n" << endl;
 	cin >> hamChoice;
 	while (hamChoice < 1 || hamChoice > 4)
@@ -115,6 +128,9 @@ int main() {
 		subtotal += hamChoice4;
 	}
 
+	
+	
+	
 	cout << "\nWould you like to add lettuce?:\n1 for Yes\n2 for No\n";
 	cin >> lettuceChoice;
 	if (lettuceChoice == 1)
@@ -122,7 +138,11 @@ int main() {
 		subtotal += lettuce;
 		cout << "\nYou added lettuce to your burger." << endl;
 	}
+	
+	
+	
 	cout << "\nWhat will be your side item on today?: " << endl;
+	
 	cout << "\Enter a number: \n1 for Fries \n2 for Chili Fries \n3 for Nachos \n4 for Mac & Cheese\n" << endl;
 	cin >> sideChoice;
 	while (sideChoice < 1 || sideChoice > 4)
@@ -148,7 +168,9 @@ int main() {
 	{
 		subtotal += sideChoice4;
 	}
+	
 	cout << "\nTo top this meal off, what is your choice of drink?: " << endl;
+	
 	cout << "\nEnter a number: \n1 for Soda \n2 for Tea \n3 for Beer \n4 for Water\n" << endl;
 	cin >> drinkChoice;
 	while (drinkChoice < 1 || drinkChoice > 4)
