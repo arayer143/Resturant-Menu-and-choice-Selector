@@ -54,23 +54,23 @@ int main() {
 	cout << "**               Cheese Burger.......$6.17                       **" << endl;
 	cout << "**               Chili Cheese Burger.$8.76                       **" << endl;
 	cout << "**                                                               **" << endl;
-	cout << "**																  **" << endl;
-	cout << "**																  **" << endl;
-	cout << "**                     Sides									  **" << endl;
-	cout << "**																  **" << endl;
+	cout << "**		                                                  **" << endl;
+	cout << "**					                          **" << endl;
+	cout << "**                     Sides				          **" << endl;
+	cout << "**					                          **" << endl;
 	cout << "**              Fries...........$1.79                            **" << endl;
 	cout << "**              Chili Fries.....$2.35                            **" << endl;
-	cout << "**				 Nachos..........$2.97                            **" << endl;
-	cout << "**				 Mac & Cheese....$3.54                            **" << endl;
-	cout << "**																  **" << endl;
-	cout << "**															   	  **" << endl;
-	cout << "**																  **" << endl;
-	cout << "**					   Drinks                                     **" << endl;
-	cout << "**																  **" << endl;
-	cout << "**				 Soda.......$1.50                                 **" << endl;
-	cout << "**				 Tea........$1.25                                 **" << endl;
-	cout << "**				 Beer.......$4.50                                 **" << endl;
-	cout << "**				 Water......$0.99                                 **" << endl;
+	cout << "**	         Nachos..........$2.97                            **" << endl;
+	cout << "**		 Mac & Cheese....$3.54                            **" << endl;
+	cout << "**								  **" << endl;
+	cout << "**								  **" << endl;
+	cout << "**								  **" << endl;
+	cout << "**			Drinks                                    **" << endl;
+	cout << "**							          **" << endl;
+	cout << "**		 Soda.......$1.50                                 **" << endl;
+	cout << "**		 Tea........$1.25                                 **" << endl;
+	cout << "**		 Beer.......$4.50                                 **" << endl;
+	cout << "**		 Water......$0.99                                 **" << endl;
 
 	
 	
